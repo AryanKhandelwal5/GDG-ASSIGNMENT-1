@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile Card</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: #ffbe4f;
+            font-family: Poppins;
+        }
+
+        .card {
+            max-width: 320px;
+            margin: 60px auto;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px #aac;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            width: 120px;
+            border-radius: 50%;
+        }
+
+        p {
+            color: #555
+        }
+
+        .loc {
+            color: #1e6bff;
+            font-size: 14px;
+        }
+
+        input,
+        textarea {
+            width: 90%;
+            padding: 8px;
+            margin: 6px;
+            border: 1px solid #cce;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 9px 18px;
+            background: #1e6bff;
+            color: white;
+            border: 0;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #003fc4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160">
+
+        <h2> ARYAN KHANDELWAL </h2>
+        <p>❤️Web Developer</p>
+
+        <div class="loc">📍 Location: Earth</div><br>
+
+        <a href="#">🌐 Portfolio</a><br><br>
+
+        <form>
+            <input placeholder="Your Name">
+            <textarea placeholder="Message"></textarea><br>
+            <button>Send Message</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
